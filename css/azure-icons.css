@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'azure-icons';
+  src:  url('../fonts/azure-icons.eot?6tkyhb');
+  src:  url('../fonts/azure-icons.eot?6tkyhb#iefix') format('embedded-opentype'),
+    url('../fonts/azure-icons.ttf?6tkyhb') format('truetype'),
+    url('../fonts/azure-icons.woff?6tkyhb') format('woff'),
+    url('../fonts/azure-icons.svg?6tkyhb#azure-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.az {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'azure-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.az-servicebus-queues:before {
+  content: "\e905";
+}
+.az-servicebus-relay:before {
+  content: "\e906";
+}
+.az-servicebus-topics:before {
+  content: "\e907";
+}
+.az-servicebus:before {
+  content: "\e908";
+}
+.az-storage-blobs:before {
+  content: "\e901";
+}
+.az-storage-files:before {
+  content: "\e900";
+}
+.az-storage-queues:before {
+  content: "\e902";
+}
+.az-storage-tables:before {
+  content: "\e903";
+}
+.az-storage:before {
+  content: "\e904";
+}
+
